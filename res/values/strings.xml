@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, MaintenAidInteractivePrototypeActivity!</string>
+    <string name="app_name">MaintenAid</string>
+    <string name="sort_by_prompt">Sort by...</string>
+    <string name="ok_button">OK</string>
+    <string-array name="sorting_options">
+    	<item>Priority</item>
+    	<item>Date</item>
+    </string-array>
+    
+    <string-array name="complete_sorting_options">
+    	<item>Apartment Number</item>
+    	<item>Date</item>
+    </string-array>
+    
+    
+    
+    <string name="building_prompt">Select a building...</string>
+    <string-array name="building_options">
+    	<item>All buildings</item>
+    	<item>Amberson</item>
+    	<item>Resnik</item>
+    	<item>Shady Oak</item>
+    </string-array>
+    
+    <string name="floor_prompt">Select a floor...</string>
+    <string name="apartment_prompt">Select an apartment...</string>
+    
+    <string-array name="progress_options">
+        <item >Incomplete</item>
+        <item >In Progress</item>
+        <item >Complete</item>
+    </string-array>
+
+</resources>

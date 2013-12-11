@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="cmu.hci.maintenaid"
+      android:versionCode="1"
+      android:versionName="1.0">
+    <uses-sdk android:minSdkVersion="7" />
+        <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"></uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"></uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS"></uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
+    <application android:icon="@drawable/icon" android:label="@string/app_name">
+        <uses-library android:name="com.google.android.maps" />
+        <activity android:name=".TabInit"
+                  android:label="@string/app_name"
+                  android:theme="@android:style/Theme.Black.NoTitleBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ViewRequestDetailsActivity"
+            android:theme="@android:style/Theme.Black.NoTitleBar"/>
+        <activity android:name=".ViewListIncompleteRequestsActivity"
+            android:theme="@android:style/Theme.Black.NoTitleBar"/>
+		<activity android:name=".ViewIncompleteRequestDetailsActivity"
+		    android:theme="@android:style/Theme.Black.NoTitleBar"/>
+		<activity android:name=".ViewListInProgressRequestsActivity"
+		    android:theme="@android:style/Theme.Black.NoTitleBar"/>
+		<activity android:name=".MakeRequestReportActivity"
+		    android:theme="@android:style/Theme.Black.NoTitleBar"/>
+		<activity android:name=".ViewListCompleteRequestsActivity"
+		    android:theme="@android:style/Theme.Black.NoTitleBar"/>
+		<activity android:name=".ViewCompleteRequestDetailsActivity"
+		    android:theme="@android:style/Theme.Black.NoTitleBar"/>
+		<activity android:name=".CompleteRequestsSearchFormActivity"
+		    android:theme="@android:style/Theme.Black.NoTitleBar"/>
+		<activity android:name=".ViewMapIncompleteRequestsBuildingsActivity"
+		    android:label="Incomplete Requests"/>
+		<activity android:name=".ViewListIncompleteRequestsForBuildingActivity"
+		    android:theme="@android:style/Theme.Black.NoTitleBar"/>
+		<activity android:name=".ViewMapCompleteRequestsBuildingsActivity"
+		    android:label="Complete Requests"/>
+		<activity android:name=".ViewMapInProgressRequestsBuildingsActivity"
+		    android:label="Requests in Progress"
+		    />
+		<activity android:name=".ViewListInProgressRequestsForBuildingActivity"
+		    android:theme="@android:style/Theme.Black.NoTitleBar"/>
+    </application>
+</manifest>

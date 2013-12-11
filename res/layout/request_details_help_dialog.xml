@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+ 	android:layout_width="fill_parent" 
+ 	android:layout_height="fill_parent"
+ 	android:orientation="vertical"
+ 	>
+ 
+ <TextView android:id="@+id/instructions" 
+ android:layout_height="wrap_content"
+ android:text="You may enter additional comments about this request by clicking in the white text area. A keyboard will then appear. Use the back button on your device to close the keyboard.
+\n
+\nIf your Android device supports it, you may press the microphone icon on the keyboard to voice record your comments.
+\n 
+\nYou can change the status of this request with the radio buttons at the bottom of the screen.
+\n
+\nPress &quot;Save Changes&quot; when you are finished. You can also press the back button to cancel any changes and return to the previous screen." 
+ android:layout_width="wrap_content"
+ android:textSize="26px" 
+>
+ </TextView>
+
+ <Button 
+ android:text="OK" 
+ android:layout_height="wrap_content" 
+ android:id="@+id/Button02" 
+ android:layout_marginLeft="105dp"
+ android:layout_marginTop="2mm"
+ android:layout_width="60dp"></Button>
+ 
+</LinearLayout>

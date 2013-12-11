@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+ 	android:layout_width="fill_parent" 
+ 	android:layout_height="fill_parent"
+ 	android:orientation="vertical"
+ 	android:padding="10dp">
+ 
+ <TextView android:id="@+id/instructions" 
+ android:layout_height="wrap_content"
+ android:text="Select a request from the list to view its details or 
+to submit a report.
+\n
+\nYou may sort the list of incomplete requests by date or priority by using the drop-down menu." 
+ android:layout_width="wrap_content" 
+></TextView>
+ 
+ <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+ 	android:layout_width="wrap_content" 
+ 	android:layout_height="wrap_content"
+ 	android:orientation="horizontal"
+ 	android:padding="10dp">
+ 	
+<ImageView android:id="@+id/ImageView01"
+ android:layout_marginRight="10dp"
+ android:layout_width="3mm"
+ android:layout_height="3mm"
+ android:layout_marginTop="18px"
+ />
+ 
+ <TextView android:id="@+id/TextView01" 
+ android:layout_height="wrap_content"
+ android:text="@+id/TextView01" 
+ android:layout_width="wrap_content" 
+ android:layout_marginTop="1.8mm"
+></TextView>
+</LinearLayout>
+
+ <Button 
+ android:text="OK" 
+ android:layout_height="wrap_content" 
+ android:id="@+id/Button01" 
+ android:layout_marginLeft="105dp"
+ android:layout_width="60dp"></Button>
+ 
+</LinearLayout>
